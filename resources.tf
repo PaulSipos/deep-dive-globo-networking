@@ -20,6 +20,7 @@ locals {
     Environment = var.environment
     Terraform   = "true"
     BillingCode = var.billing_code
+    Workspace   = terraform.workspace
   }
 }
 

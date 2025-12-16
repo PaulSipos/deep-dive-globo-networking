@@ -13,3 +13,5 @@
 
 # .pem files
 *.pem
+#  Ignore backend config files
+backend_local.tf
